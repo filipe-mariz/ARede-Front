@@ -1,13 +1,11 @@
 import React from 'react'
-//import logoImage from '../images/'
+//import logoImage from '../images/logo.png'
 
 function Landing() {
     return (
-        <div>
-            <h1>ola mundo</h1>
-            <h2>reactapp</h2>
+        <div id="page-landing">
+
         </div>
-        
     );
 }
 
