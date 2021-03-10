@@ -1,7 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import logoImage from '../images/logo.png'
-import icon from '../images/icon.png';
 import name from '../images/name.png';
 import '../styles/pages/Landing.css'
 

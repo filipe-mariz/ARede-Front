@@ -2,7 +2,7 @@ import React from 'react';
 import {BrowserRouter, Route} from 'react-router-dom';
 import Landing from './pages/Landing';
 import PersonHelp from './pages/PersonHelp';
-import RegisterProfessional from './pages/RegisterProfessional';
+import RegisterProfessional from './pages/LoginProfessional';
 
 function Routes(){
     return (
