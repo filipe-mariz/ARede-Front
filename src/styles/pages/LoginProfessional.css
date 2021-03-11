@@ -4,9 +4,29 @@
     margin: 0%;    
     justify-content: center;    
     background: #feffe0;
-    background-size: 300%, 300%;    
+    background-size: 300%, 300%; 
+    color: #2957f1;   
   } 
   
+  #loginProfessional h1 {
+    position: absolute;    
+    align-self: center;
+    color: rgb(255, 255, 255);
+    left: 60px;
+    top: 200px;
+    font-size: 70px;
+    font-family: sans-serif;
+  }
+  #loginProfessional h2 {
+    position: fixed;    
+    color: rgb(255, 255, 255);
+    left: 60px;
+    top: 290px;
+    font-size: 10px;
+    font-family: sans-serif;
+    width: 200px;
+  }
+
   #loginProfessional .wrapper {
     position: absolute;
     align-self: center; 
@@ -22,20 +42,50 @@
     box-shadow: 0px 10px 15px rgba(0,0,0,0.1);    
   }
 
-  #loginProfessional .wrapper .userName h2 {
+  #loginProfessional .wrapper h2 {
     color: #2957f1;
-    font-size: 20px;
+    font-size: 15px;
   }
-  #loginProfessional .wrapper .userName input {
-    width: 80%;
+  #loginProfessional .wrapper input {
+    width: 90%;
     height: 30px;
     outline: none;
     font-family: Arial;
     border-radius: 3px;
     border: 1px solid rgb(0, 112, 240);
-    color: aqua;
+    color: rgb(14, 66, 66);
     font-size: 17px;
     padding-left: 15px;
     transition: all 0.3s ease;
+  }
+  #loginProfessional .wrapper .buttons .enter {
+    width: 140px;
+    height: 40px;
+    background: #67f54b;
+    color: #fff;
+    border: 1px solid #2957f1;
+    border-radius: 5px;
+  }
+  #loginProfessional .wrapper .buttons .register {
+    position: absolute;
+    left: 180px;
+    width: 200px;
+    height: 40px;
+    background: #4bd3f5;
+    color: #fff;
+    border: 1px solid #2957f1;
+    border-radius: 5px;
+  }
+  #loginProfessional .wrapper .buttons .register:hover,
+  #loginProfessional .wrapper .buttons .enter:hover {
+    background: rgb(220, 235, 14);
+  }
+
+  #loginProfessional .wrapper .forgot {
+    position: relative;
+    align-self: center;
+    left: 230px;
+    height: 10px;
+    font-size: 12px;
   }
 

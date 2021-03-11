@@ -7,20 +7,30 @@ import '../styles/pages/LoginProfessional.css'
 function RegisterProfessional() {
     return (
     <div id="loginProfessional">
+        
         <Sidebar />
-        <div className="wrapper">            
+        <h1>Login</h1> 
+        <h2>Realize seu cadastro ou login e ajude pessoa proximas a você</h2>
+        <div className="wrapper">  
+                 
             <div className="login">
                 <div className="userName">
-                    <h2>Digite seu nome de usuário</h2>
-                    <input type="text" placeholder="Entre "/>
+                    Digite seu nome de usuário
+                    <input type="text" placeholder="Nome de usuário"/>
                 </div>
-                <div className="password">
-                    <h2>Digite sua senha</h2>
-                    <input type="password"/>
+                <div className="password" placeholder="Senha">
+                    <br/>                    
+                    Senha <input type="password"/> 
+                    <br/>
                 </div>
                 <div className="buttons">
+                    <br/>
                     <button className="enter">Entrar</button>
-                    <button className="registe">Não possuo conta</button>
+                    <button className="register">Não possuo conta</button>
+                </div>
+                <div className="forgot">
+                    <br/>
+                    <Link to="/forget" className="forget">Esqueceu sua senha?</Link>
                 </div>
 
             </div>
