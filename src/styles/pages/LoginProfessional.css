@@ -66,6 +66,12 @@
     border: 1px solid #2957f1;
     border-radius: 5px;
   }
+
+  #loginProfessional .wrapper .buttons .enter .login {
+    text-decoration: none;
+    color: #fff;
+  }
+
   #loginProfessional .wrapper .buttons .register {
     position: absolute;
     left: 180px;
@@ -76,6 +82,12 @@
     border: 1px solid #2957f1;
     border-radius: 5px;
   }
+
+  #loginProfessional .wrapper .buttons .register .form {
+    text-decoration: none;
+    color: #fff;
+  }
+
   #loginProfessional .wrapper .buttons .register:hover,
   #loginProfessional .wrapper .buttons .enter:hover {
     background: rgb(220, 235, 14);

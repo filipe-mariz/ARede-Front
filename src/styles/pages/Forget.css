@@ -1,0 +1,20 @@
+#forget {
+    width: 100%;
+    height: 100vh;    
+    margin: 0%;    
+    justify-content: center;    
+    background: #feffe0;
+    background-size: 300%, 300%; 
+    color: #2957f1;
+}
+
+#forget h1 {
+    position: absolute;    
+    align-self: center;
+    color: rgb(255, 255, 255);
+    left: 60px;
+    top: 180px;
+    font-size: 40px;
+    font-family: sans-serif;
+    width: 100px;
+}

@@ -1,0 +1,35 @@
+aside.app-menu {
+    position: fixed;
+    height: 100%;
+    padding: 32px 140px;
+    background: linear-gradient(329.54deg, #8cd615 0%, #15D6D6 100%);  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  aside.app-menu img  {
+    width: 60px;
+  }
+  
+  aside.app-menu footer a,
+  aside.app-menu footer button {
+    width: 48px;
+    height: 48px;  
+    border: 0;  
+    background: #bbe8ee;
+    border-radius: 16px;  
+    cursor: pointer;  
+    transition: background-color 0.2s;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: auto;
+    top: 100%;
+  }
+  
+  aside.app-menu footer a:hover,
+  aside.app-menu footer button:hover {
+    background: #17D6EB;
+  }

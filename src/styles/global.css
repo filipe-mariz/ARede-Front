@@ -4,7 +4,7 @@
     box-sizing: border-box;    
 }
 body{    
-    background:rgb(217, 241, 248)
+    background: #feffe0;
 }
 body, button, input, textarea {
     font: 600 18px Nunito, sans-serif;

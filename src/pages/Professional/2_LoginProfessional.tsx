@@ -1,8 +1,7 @@
-import { deflate } from 'node:zlib';
 import React from 'react'
 import { Link } from 'react-router-dom';
-import Sidebar from '../components/Sidebar';
-import '../styles/pages/LoginProfessional.css'
+import Sidebar from '../../components/Sidebar';
+import '../../styles/pages/LoginProfessional.css'
 
 function RegisterProfessional() {
     return (
@@ -25,8 +24,12 @@ function RegisterProfessional() {
                 </div>
                 <div className="buttons">
                     <br/>
-                    <button className="enter">Entrar</button>
-                    <button className="register">Não possuo conta</button>
+                    <button className="enter">
+                        <Link to="/professional" className="login">Entrar</Link>
+                    </button>
+                    <button className="register">
+                        <Link to="/professionalform" className="form">Não possuo conta</Link>
+                    </button>
                 </div>
                 <div className="forgot">
                     <br/>
