@@ -12,13 +12,13 @@ export default function Menu() {
     return (
         <aside className="app-menu">       
          <footer>
-          <button type="button" onClick={goBack}>            
+          <button type="button" className="goBack" onClick={goBack}>            
             <img src={Icon} alt="icon"/>            
           </button>
-          <button>Dados pessois</button>
-          <button>Ações Realizadas</button>
-          <button>Fundadores</button>
-          <button>Pequeninos</button>
+          <button className="data">Dados pessois</button>
+          <button className="actions">Ações Realizadas</button>
+          <button className="funde">Fundadores</button>
+          <button className="pequeninos">Pequeninos</button>
           <FiArrowLeft size={24} color="#FFF" />          
         </footer>
         

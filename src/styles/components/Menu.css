@@ -6,7 +6,7 @@ aside.app-menu {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    
   }
   
   aside.app-menu img  {
@@ -14,7 +14,7 @@ aside.app-menu {
   }
   
   aside.app-menu footer a,
-  aside.app-menu footer button {
+  aside.app-menu footer .goBack {
     width: 48px;
     height: 48px;  
     border: 0;  
@@ -32,4 +32,80 @@ aside.app-menu {
   aside.app-menu footer a:hover,
   aside.app-menu footer button:hover {
     background: #17D6EB;
+  }
+
+  aside.app-menu .data {
+    width: 300px;
+    height: 40px;
+    align-items: center;
+    left: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #73ff66;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: ivory;
+    top: 30%;
+    text-decoration:none;
+    transition: background-color 0.2s;
+  }
+
+  aside.app-menu .actions {
+    width: 300px;
+    height: 40px;
+    align-items: center;
+    left: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #ff6666;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: ivory;
+    top: 40%;
+    text-decoration:none;
+    transition: background-color 0.2s;
+  }
+
+  aside.app-menu .funde {
+    width: 300px;
+    height: 40px;
+    align-items: center;
+    left: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #4b7afa;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: ivory;
+    top: 50%;
+    text-decoration:none;
+    transition: background-color 0.2s;
+  }
+
+  aside.app-menu .pequeninos {
+    width: 300px;
+    height: 40px;
+    align-items: center;
+    left: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #e9f547;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: ivory;
+    top: 60%;
+    text-decoration:none;
+    transition: background-color 0.2s;
   }
